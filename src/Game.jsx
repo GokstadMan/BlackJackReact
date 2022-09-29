@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { cardDeck } from "./card-deck";
 import { Player } from "./Player";
 import "./Game.css";
+import { Highscores } from "./Highscores";
 
 function calculateScore(cards) {
   let score = 0;
@@ -110,8 +111,7 @@ export function Game() {
           STÅ!
         </button>
       </div>
-
-      <h2>Total score: {totalScore}</h2>
+      <Highscores totalScore={totalScore} />
     </div>
   );
 }
