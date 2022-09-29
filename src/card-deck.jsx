@@ -55,7 +55,7 @@ import { ReactComponent as ClubsK } from "./card-images/cards/king_of_clubs.svg"
 import { ReactComponent as ClubsAce } from "./card-images/cards/ace_of_clubs.svg";
 
 export const cardDeck = [ 
-  { suit: "hearts", rank: 11, img: <HeartsAce /> },
+  { suit: "hearts", rank: 1, img: <HeartsAce /> },
   { suit: "hearts", rank: 2, img: <Hearts2 /> },
   { suit: "hearts", rank: 3, img: <Hearts3 /> },
   { suit: "hearts", rank: 4, img: <Hearts4 /> },
@@ -69,7 +69,7 @@ export const cardDeck = [
   { suit: "hearts", rank: 10, img: <HeartsQ /> },
   { suit: "hearts", rank: 10, img: <HeartsK /> },
 
-  { suit: "spades", rank: 11, img: <SpadesAce /> },
+  { suit: "spades", rank: 1, img: <SpadesAce /> },
   { suit: "spades", rank: 2, img: <Spades2 /> },
   { suit: "spades", rank: 3, img: <Spades3 /> },
   { suit: "spades", rank: 4, img: <Spades4 /> },
@@ -83,7 +83,7 @@ export const cardDeck = [
   { suit: "spades", rank: 10, img: <SpadesQ /> },
   { suit: "spades", rank: 10, img: <SpadesK /> },
 
-  { suit: "diamonds", rank: 11, img: <DiamondsAce /> },
+  { suit: "diamonds", rank: 1, img: <DiamondsAce /> },
   { suit: "diamonds", rank: 2, img: <Diamonds2 /> },
   { suit: "diamonds", rank: 3, img: <Diamonds3 /> },
   { suit: "diamonds", rank: 4, img: <Diamonds4 /> },
@@ -97,7 +97,7 @@ export const cardDeck = [
   { suit: "diamonds", rank: 10, img: <DiamondsQ /> },
   { suit: "diamonds", rank: 10, img: <DiamondsK /> },
 
-  { suit: "clubs", rank: 11, img: <ClubsAce /> },
+  { suit: "clubs", rank: 1, img: <ClubsAce /> },
   { suit: "clubs", rank: 2, img: <Clubs2 /> },
   { suit: "clubs", rank: 3, img: <Clubs3 /> },
   { suit: "clubs", rank: 4, img: <Clubs4 /> },
